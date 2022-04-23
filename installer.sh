@@ -5,9 +5,7 @@
 cd /tmp
 set -e 
 install --force-overwrite "https://github.com/tar1971/plugin/blob/main/enigma2-plugin-extensions-xcplugin-forever_1.8_all.ipk?raw=true"
-cd ..
-set +e
-rm -f /tmp/script.tar.gz
+
 echo "   UPLOADED BY  >>>>   EMIL_NABIL "   
 sleep 4;                                                                                                                  
 echo ". >>>>         RESTARING     <<<<"
