@@ -6,7 +6,7 @@ cd /tmp
 set -e 
 wget "https://github.com/tar1971/plugin/blob/main/enigma2-plugin-extensions-xcplugin-forever_1.8_all.ipk?raw=true"
 wait
-opkg install --force-overwrite /tmp/*.ipk
+opkg install --force-overwrite https://github.com/tar1971/plugin/blob/main/enigma2-plugin-extensions-xcplugin-forever_1.8_all.ipk?raw=true
 wait
 cd ..
 set +e
