@@ -1,20 +1,28 @@
+
 #!/bin/sh
- # 
-#command wget https://raw.githubusercontent.com/tar1971/plugin/main/installer.sh -O - | /bin/sh
- # # 
+#
+
+wget -O /var/volatile/tmp/docsat.tar.gz "https://drive.google.com/uc?export=download&id=1FypFlFPbOnP3vvjW4elm7oYZwCbpzUi3"
+
+echo ""
+# Download and install plugin
 cd /tmp
-set -e 
-wget "https://github.com/tar1971/plugin/blob/main/enigma2-plugin-extensions-xcplugin-forever_1.8_all.ipk?raw=true"
-cd /tmp
-opkg install --force-overwrite
-wait
-opkg install --force-overwrite /tmp/enigma2-plugin-extensions-xcplugin-forever_1.8_all
-wait
-cd ..
+set -e
+echo "===> Downloading And Installing  docsat Please Wait ......"
+echo
+tar -xzf docsat.tar.gz -C /
 set +e
-rm -f /tmp/script.tar.gz
-echo "   UPLOADED BY  >>>>   TAR_TAR "   
-sleep 4;                                                                                                                  
-wait
-killall -9 enigma2
+rm -f docsat.tar.gz
+
+echo ""
+sync
+echo "##############################################################"
+echo "#         docsat audio INSTALLED SUCCESSFULLY             #"
+echo "#             UPLOADED BY ELIESAT                #"
+echo "##############################################################"
+echo "**************************************************************"
+echo "##############################################################"
+echo "#              RESTART YOUR STB NOW                  #"
+echo "##############################################################"
+
 exit 0
