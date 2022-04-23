@@ -1,12 +1,12 @@
 #!/bin/sh
  # 
-#command wget https://raw.githubusercontent.com/emil237/scripts/main/installer.sh -O - | /bin/sh
+#command wget https://raw.githubusercontent.com/tar1971/plugin/main/installer.sh -O - | /bin/sh
  # # 
 cd /tmp
 set -e 
 wget "https://raw.githubusercontent.com/emil237/scripts/main/script.tar.gz"
 wait
-tar -xzf script.tar.gz  -C /
+opkg install --force-overwrite /tmp/*.ipk
 wait
 cd ..
 set +e
