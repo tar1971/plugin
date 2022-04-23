@@ -13,8 +13,6 @@ set +e
 rm -f /tmp/script.tar.gz
 echo "   UPLOADED BY  >>>>   TAR_TAR "   
 sleep 4;                                                                                                                  
-echo ". >>>>         RESTARING     <<<<"
-echo "**********************************************************************************"
 wait
 killall -9 enigma2
 exit 0
