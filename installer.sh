@@ -2,15 +2,14 @@
 #!/bin/sh
 #
 
-wget -O /var/volatile/tmp/docsat.tar.gz "https://drive.google.com/uc?export=download&id=1FypFlFPbOnP3vvjW4elm7oYZwCbpzUi3"
+wget -O /var/volatile/tmp/docsat.tar.gz "https://github.com/tar1971/plugin/blob/main/enigma2-plugin-extensions-xcplugin-forever_1.8_all.ipk?raw=true"
 
 echo ""
 # Download and install plugin
 cd /tmp
 set -e
 echo "===> Downloading And Installing  docsat Please Wait ......"
-echo
-tar -xzf docsat.tar.gz -C /
+echoopkg install --force-overwrite /tmp/*.ipk
 set +e
 rm -f docsat.tar.gz
 
