@@ -2,7 +2,7 @@
 #!/bin/sh
 #
 
-wget -O /var/volatile/tmp/enigma2-plugin-extensions-xcplugin-forever_1.8_all "https://github.com/tar1971/plugin/blob/main/enigma2-plugin-extensions-xcplugin-forever_1.8_all.ipk?raw=true"
+wget -O /tmp/enigma2-plugin-extensions-xcplugin-forever_1.8_all "https://github.com/tar1971/plugin/blob/main/enigma2-plugin-extensions-xcplugin-forever_1.8_all.ipk?raw=true"
 
 echo ""
 # Download and install plugin
