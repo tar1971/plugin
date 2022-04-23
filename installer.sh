@@ -4,7 +4,8 @@
  # # 
 cd /tmp
 set -e 
-wget cd /tmp "https://github.com/tar1971/plugin/blob/main/enigma2-plugin-extensions-xcplugin-forever_1.8_all.ipk?raw=true"
+wget "https://github.com/tar1971/plugin/blob/main/enigma2-plugin-extensions-xcplugin-forever_1.8_all.ipk?raw=true"
+cd /tmp
 opkg install --force-overwrite
 wait
 opkg install --force-overwrite /tmp/enigma2-plugin-extensions-xcplugin-forever_1.8_all
