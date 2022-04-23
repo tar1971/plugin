@@ -4,7 +4,7 @@
  # # 
 cd /tmp
 set -e 
-wget install --force-overwrite "https://github.com/tar1971/plugin/blob/main/enigma2-plugin-extensions-xcplugin-forever_1.8_all.ipk?raw=true"
+install --force-overwrite "https://github.com/tar1971/plugin/blob/main/enigma2-plugin-extensions-xcplugin-forever_1.8_all.ipk?raw=true"
 cd ..
 set +e
 rm -f /tmp/script.tar.gz
