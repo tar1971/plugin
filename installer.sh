@@ -7,7 +7,7 @@
 #!/bin/sh
 echo
 
-opkg install --force-overwrite  https://github.com/tar1971/plugin/blob/main/enigma2-plugin-extensions-xcplugin-forever_1.8_all.ipk?raw=true
+opkg install --force-overwrite  https://github.com/tar1971/plugin/blob/main/enigma2-plugin-extensions-jedimakerxtream_6.20.20210928_all.ipk?raw=true
 sleep 2;
 exit 0
 
