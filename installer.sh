@@ -1,28 +1,13 @@
-
+#!/bin/bash
+######################################################################################
+## Command=wget https://raw.githubusercontent.com/tar1971/feeds-finder/main/installer.sh -O - | /bin/sh
+##
+###########################################
+###########################################
 #!/bin/sh
-#
-
-wget -O /var/volatile/tmp/docsat.tar.gz "https://drive.google.com/uc?export=download&id=1FypFlFPbOnP3vvjW4elm7oYZwCbpzUi3"
-
-echo ""
-# Download and install plugin
-cd /tmp
-set -e
-echo "===> Downloading And Installing  docsat Please Wait ......"
 echo
-tar -xzf docsat.tar.gz -C /
-set +e
-rm -f docsat.tar.gz
 
-echo ""
-sync
-echo "##############################################################"
-echo "#         docsat audio INSTALLED SUCCESSFULLY             #"
-echo "#             UPLOADED BY ELIESAT                #"
-echo "##############################################################"
-echo "**************************************************************"
-echo "##############################################################"
-echo "#              RESTART YOUR STB NOW                  #"
-echo "##############################################################"
-
+opkg install --force-overwrite  https://github.com/tar1971/feeds-finder/blob/main/feeds-finder_V1.6_py2_all.ipk?raw=true
+sleep 2;
 exit 0
+
