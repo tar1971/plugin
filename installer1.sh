@@ -7,6 +7,6 @@
 echo
 opkg install --force-overwrite  https://github.com/tar1971/plugin/blob/main/enigma2-nitroadvancefhd_v1.0_all.ipk?raw=true
 wait
-opkg install --force-overwrite  https://github.com/tar1971/plugin/blob/main/enigma2-plugin-extensions-xtraevent_v1.0_all.ipk?raw=true
+opkg install --force-overwrite  https://github.com/tar1971/plugin/blob/main/enigma2-plugin-skin-nitroadvancedfhd_v5.3_all.ipk?raw=true
 wait
 exit
