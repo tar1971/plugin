@@ -7,7 +7,8 @@
 #!/bin/sh
 #
 
-wget -O /tmp/EPG-PRO-grabber.tar.gz "https://onedrive.live.com/download?cid=CFCA224FBA296C58&resid=CFCA224FBA296C58%21176&authkey=AHeflovfFcgv4UQ"
+
+wget -O /tmp/EPG-PRO-grabber.tar.gz  "https://drive.google.com/uc?id=15TJ9-_rnywMmJhoPFiu_9rLY6fNxtQ0O&export=download"
 
 tar -xzf /tmp/EPG-PRO-grabber.tar.gz -C /
 
@@ -16,6 +17,7 @@ rm -r /tmp/EPG-PRO-grabber.tar.gz
 killall -9 enigma2
 
 sleep 2;
+
 ###########################################
 ###########################################
 echo ""
