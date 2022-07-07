@@ -6,7 +6,7 @@
 ###########################################
 #!/bin/sh
 #
-wget -O /tmp/EPG-PRO-grabber.tar.gz  "https://drive.google.com/uc?id=15TJ9-_rnywMmJhoPFiu_9rLY6fNxtQ0O&export=download"
+wget -O /tmp/EPG-PRO-grabber.tar.gz "https://drive.google.com/uc?id=15TJ9-_rnywMmJhoPFiu_9rLY6fNxtQ0O&export=download"
 
 tar -xzf /tmp/EPG-PRO-grabber.tar.gz -C /
 
