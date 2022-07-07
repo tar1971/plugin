@@ -7,7 +7,7 @@
 #!/bin/sh
 #
 
-wget -O /tmp/EPG-PRO-grabber.tar.gz  "https://onedrive.live.com/download?cid=CFCA224FBA296C58&resid=CFCA224FBA296C58%21176&authkey=AHeflovfFcgv4UQ"
+wget -O /tmp/EPG-PRO-grabber.tar.gz "https://onedrive.live.com/download?cid=CFCA224FBA296C58&resid=CFCA224FBA296C58%21176&authkey=AHeflovfFcgv4UQ"
 
 tar -xzf /tmp/EPG-PRO-grabber.tar.gz -C /
 
