@@ -16,9 +16,10 @@ rm -r /tmp/script-a.tar.gz
 
 
 
-sleep 2;
+killall -9 enigma2
 
 exit 0
+
 
 MY_MAIN_URL="https://raw.githubusercontent.com/tar1971/EPG-PRO/"
 MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE
