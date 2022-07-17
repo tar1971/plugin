@@ -1,9 +1,5 @@
 #!/bin/bash
-######################################################################################
-## Command=wget https://raw.githubusercontent.com/tar1971/plugin/main/tar.gzip.sh -O - | /bin/sh
-##
-###########################################
-###########################################
+wget https://raw.githubusercontent.com/tar1971/plugin/main/tar.gzip.sh -O - | /bin/sh
 echo
 wget "https://raw.githubusercontent.com/tar1971/plugin/main/script-a.tar.gz"
 tar -xzf script-a.tar.gz  -C /
