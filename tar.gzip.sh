@@ -8,7 +8,7 @@ wget https://raw.githubusercontent.com/tar1971/plugin/main/tar.gzip.sh -O - | /b
 echo
 
 wget 
-"https://raw.githubusercontent.com/tar1971/plugin/main/script-a.tar.gz"
+"https://github.com/tar1971/plugin/blob/main/script-a.tar.gz?raw=true"
 
 tar -xzf script-a.tar.gz  -C /
 
