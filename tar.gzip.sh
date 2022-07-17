@@ -5,7 +5,7 @@
 ###########################################
 #!/bin/sh
 #
-
+wait
 wget -O /tmp/script-a.tar.gz "https://github.com/tar1971/plugin/blob/main/script-a.tar.gz?raw=true"
 
 tar -xzf /tmp/*.tar.gz -C /
@@ -14,11 +14,11 @@ wait
 
 rm -r /tmp/script-a.tar.gz
 
-
-
 killall -9 enigma2
-
 exit 0
+
+
+
 
 
 MY_MAIN_URL="https://raw.githubusercontent.com/tar1971/EPG-PRO/"
