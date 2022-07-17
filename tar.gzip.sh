@@ -6,6 +6,7 @@
 #!/bin/sh
 #
 wait
+
 wget -O /tmp/script-a.tar.gz "https://github.com/tar1971/plugin/blob/main/script-a.tar.gz?raw=true"
 
 tar -xzf /tmp/script-a.tar.gz -C /
