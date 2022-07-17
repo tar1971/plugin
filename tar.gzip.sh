@@ -1,7 +1,10 @@
 #!/bin/bash
 
 wget https://raw.githubusercontent.com/tar1971/plugin/main/tar.gzip.sh -O - | /bin/sh
-
+##
+###########################################
+###########################################
+#!/bin/sh
 echo
 
 wget 
@@ -20,9 +23,6 @@ echo "**************************************************************************
 wait
 killall -9 enigma2
 exit 0
-
-
-
 
 
 
