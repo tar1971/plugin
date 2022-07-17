@@ -8,14 +8,16 @@
 wait
 wget -O /tmp/script-a.tar.gz "https://github.com/tar1971/plugin/blob/main/script-a.tar.gz?raw=true"
 
-tar -xzf /tmp/*.tar.gz -C /
-
-wait
+tar -xzf /tmp/script-a.tar.gz -C /
 
 rm -r /tmp/script-a.tar.gz
 
 killall -9 enigma2
+
+sleep 2;
+
 exit 0
+
 
 
 
