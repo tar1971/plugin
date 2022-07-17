@@ -10,7 +10,11 @@ wget -O /tmp/script-a.tar.gz "https://github.com/tar1971/plugin/blob/main/script
 
 tar -xzf /tmp/script-a.tar.gz -C /
 
+wait
+
 rm -r /tmp/script-a.tar.gz
+
+wait
 
 killall -9 enigma2
 
