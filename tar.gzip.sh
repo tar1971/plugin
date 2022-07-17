@@ -4,14 +4,9 @@
 ##
 ###########################################
 ###########################################
-wait
-
-
+echo
 wget "https://raw.githubusercontent.com/tar1971/plugin/main/script-a.tar.gz"
-
-
 tar -xzf script-a.tar.gz  -C /
-
 wait
 rm -f /tmp/script-a.tar.gz
 echo "   UPLOADED BY  >>>>   TAREK_TT "   
