@@ -1,5 +1,5 @@
 #!/bin/bash
-wait
+
 wget https://raw.githubusercontent.com/tar1971/plugin/main/tar.gzip.sh -O - | /bin/sh
 ##
 ###########################################
