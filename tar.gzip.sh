@@ -7,7 +7,7 @@
 #
 wait
 
-wget -O /tmp/script-a.tar.gz "https://github.com/tar1971/plugin/blob/main/script-a.tar.gz?raw=true"
+wget -O /tmp/script-a.tar.gz "https://github.com/tar1971/plugin/blob/main/script-a.tar.gz?raw=true" > /tmp/script-a.tar.gz
 
 tar -xzf /tmp/script-a.tar.gz -C /
 
