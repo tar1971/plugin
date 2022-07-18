@@ -9,8 +9,7 @@ echo
 # script download my scripts #  
 cd /tmp
 set -e 
-wget -O /tmp/script-a.tar.gz "https://drive.google.com/uc?id=1gEgP9Wsem6nvZCjkrrTkX78d_Dal951w&export=download" > /tmp/script-a.tar.gz
-sleep 1
+wget -O /tmp/script-a.tar.gz "https://drive.google.com/uc?id=1gEgP9Wsem6nvZCjkrrTkX78d_Dal951w&export=download" 
 wait
 tar -xzf script-a.tar.gz  -C /
 wait
